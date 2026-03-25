@@ -2,7 +2,7 @@ import requests
 #url 입력
 BASE_URL = ""
 #PHPSESSID
-MY_COOKIE = "7dojvk2a1hvpgjtskn4c8a76lq"
+MY_COOKIE = ""
 
 class CustomSQLInjector:
     def __init__(self, base_url, cookie):
