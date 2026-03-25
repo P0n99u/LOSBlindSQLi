@@ -14,7 +14,7 @@ class CustomSQLInjector:
         #필터링 감지 시 차단된 전체 URL 출력
         if "config" not in text:
             if "No Hack" in text or "HeHe" in text:
-                print(f"\n[!] 필터링 감지됨: {full_url}")
+                print(f"\n[!] 필터됨: {full_url}뭐 잘못 입력했나봄")
                 return True
         return False
 
