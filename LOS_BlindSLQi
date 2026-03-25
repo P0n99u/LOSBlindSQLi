@@ -29,7 +29,7 @@ class CustomSQLInjector:
                 
                 if self.check_filter(res.text, full_url): return None
                 if self.success_msg in res.text:
-                    print(f"[+] 비번 길이: {i}")
+                    print(f"[+] 비번 len: {i}")
                     return i
             return None
 
